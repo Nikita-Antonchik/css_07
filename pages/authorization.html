@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>authorization</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h1>Car Market</h1>
+    <nav class="header">
+    <ul class="header__heading">
+        <li class="header__heading--main">
+            <a href="../website.html">Головна сторінка</a>
+        </li>
+        <li class="header__heading--regist">
+            <a href="../pages/regist.html">Реєстрація</a>
+        </li>
+    </ul>
+    </nav>
+    <form class="authorization">
+    <span class="authorization__box">
+        <div class="authorization__box--wrap">
+            <h2>Авторизація</h2>
+            <label class="authorization__box--spec">
+                <legend>Вхід на сайт</legend>
+                <input type="text" name="phone/e-mail" required="required" placeholder="Телефон або e-mail">
+                <input type="password" name="password" required="required" placeholder="Пароль" autocomplete="current-password">
+                <p class="">Запам'ятати мене</p>
+                <input id="checkbox" class="checkbox" type="checkbox">
+                <p>
+                    <input type="submit" value="Увійти">
+                </p>
+            </label>
+        </div>
+    </span>
+    </form>
+</body>
+</html>

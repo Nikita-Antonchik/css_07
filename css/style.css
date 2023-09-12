@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+/* 1 */
+body {
+    overflow: hidden;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    background-color: gray;
+    background: fixed url(../img/car_background.jpg) center bottom no-repeat;
+    background-size: cover;
+    font-weight: 400;
+    color: #fff;
+}
+
+/* 10 */
+.header {
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    background-color: rgba(777, 777, 777, 0.1) ;
+    top: 5vh;
+    right: 0;
+    width: 100%;
+    height: auto 29px;  
+}
+
+/* 1 */
+h1 {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    font-size: 6.7vmin;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* 10 */
+.header__heading {
+    display: flex;
+    justify-content: right;
+}
+
+/* 11 */
+.header__heading li {
+    font-size: 2vmin;
+    height: 40px;
+    line-height: 40px;
+
+}
+
+/* 11 */
+.header__heading a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 0.72px;
+    padding: 0 20px 0 0;
+    margin: 20px;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+/* 10 */
+.nav__box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(777, 777, 777, 0.2);
+    width: 30%;
+    height: 30vh;
+    padding: 1.5em 0 0 2em;
+}
+
+/* 11 */
+.nav__box select {
+    box-sizing: border-box;
+    text-align: center;
+    height: 30px;
+    width: 30%;
+    margin-top: 1em ;
+    
+} 
+
+/* 10 */
+.nav__box--spac {
+    position: absolute;
+    top: 1em;
+
+}
+
+/* 10 */
+.nav__box--branding {
+    position: absolute;
+    top: 4em;
+}
+
+/* 10 */
+.nav__box--branding {
+    margin-top: 13px;
+}
+
+/* 10 */
+.nav .nav__box--brand {
+    margin-top: 40px;
+}
+
+/* 10 */
+.nav__box--search {
+    font-weight: 700;
+    padding-left: 3.1em ;
+    padding-top: 1.2em ;
+    padding-bottom: 0.8em ;
+
+}
+
+/* 10 */
+.nav__search--query {
+    text-align: center;
+    width: 30%;
+}
+
+
+/* 10 */
+.nav__box--region {
+    position: absolute;
+    right: 13em;
+
+}
+
+/* 10 */
+.nav__box--designation {
+    position: absolute;
+    top: 1em;
+    left: 14.2em;
+
+}
+
+/* 10 */
+.nav__box--year {
+    position: absolute;
+    right: 45% ;
+    top: 5em;
+}
+
+/* 10 */
+.nav__box--list {
+    position: absolute;
+    top: 9.7vh;
+    left: 39.7%;
+}
+
+/* 10 */
+.nav__box--form-add {
+    position: absolute;
+    top: 65%;
+    left: 39.7%;
+    width: 20%;
+} 
+
+/* 10 */
+.nav__box--form-before {
+    position: absolute;
+    top: 65%;
+    right: 18%;
+    width: 20%;
+}
+
+/* 10 */
+.nav__box--form-first {
+    position: absolute;
+    top: 57%;
+    left: 39.7%;
+}
+
+/* 10 */
+.nav__box--button {
+    position: absolute;
+    top: 80%;
+    right: 30.5%;
+    height: 30px;
+    width: 30%;
+}
+
+/* regist/autor. page */
+
+
+/* 20 */
+.wrapper, .authorization {
+    display: flex;
+    justify-content: center;
+}
+
+/* 20 */
+.wrapper__box, 
+.authorization__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #aaa;
+    background-color: rgba(777, 777, 777, 0.2);
+    width: 40%;
+    height: 60vh;
+}
+
+/* 20 */
+.wrapper__box--reg-main, 
+.authorization__box--spec {
+    display: flex;
+    flex-direction: column;
+}
+
+/* 11 */
+.wrapper__box--reg h2{
+    position: relative;
+    top: 0;
+}
+
+/* 11 */
+.wrapper__box--reg-main
+input {
+    height: 30px;
+    width: 300px;
+    margin: 15px 0;
+}
+
+/* 100 */
+#checkbox {
+    position: absolute;
+    top: 48.7%;
+    left: 49.5%;
+    height: 20px;
+    width: 20px;
+}
+
+/* 11 */
+.authorization__box--spec input {
+    height: 30px;
+    width: 300px;
+    margin: 15px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
